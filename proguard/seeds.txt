@@ -1,0 +1,97 @@
+android.net.ConnectivityManager
+android.net.ConnectivityManager: java.lang.String CONNECTIVITY_ACTION
+android.net.ConnectivityManager: java.lang.String CONNECTIVITY_ACTION_IMMEDIATE
+android.net.ConnectivityManager: java.lang.String EXTRA_NETWORK_INFO
+android.net.ConnectivityManager: java.lang.String EXTRA_IS_FAILOVER
+android.net.ConnectivityManager: java.lang.String EXTRA_OTHER_NETWORK_INFO
+android.net.ConnectivityManager: java.lang.String EXTRA_NO_CONNECTIVITY
+android.net.ConnectivityManager: java.lang.String EXTRA_REASON
+android.net.ConnectivityManager: java.lang.String EXTRA_EXTRA_INFO
+android.net.ConnectivityManager: java.lang.String EXTRA_INET_CONDITION
+android.net.ConnectivityManager: java.lang.String ACTION_BACKGROUND_DATA_SETTING_CHANGED
+android.net.ConnectivityManager: java.lang.String INET_CONDITION_ACTION
+android.net.ConnectivityManager: java.lang.String ACTION_TETHER_STATE_CHANGED
+android.net.ConnectivityManager: java.lang.String EXTRA_AVAILABLE_TETHER
+android.net.ConnectivityManager: java.lang.String EXTRA_ACTIVE_TETHER
+android.net.ConnectivityManager: java.lang.String EXTRA_ERRORED_TETHER
+android.net.ConnectivityManager: int TYPE_NONE
+android.net.ConnectivityManager: int TYPE_MOBILE
+android.net.ConnectivityManager: int TYPE_WIFI
+android.net.ConnectivityManager: int TYPE_MOBILE_MMS
+android.net.ConnectivityManager: int TYPE_MOBILE_SUPL
+android.net.ConnectivityManager: int TYPE_MOBILE_DUN
+android.net.ConnectivityManager: int TYPE_MOBILE_HIPRI
+android.net.ConnectivityManager: int TYPE_WIMAX
+android.net.ConnectivityManager: int TYPE_BLUETOOTH
+android.net.ConnectivityManager: int TYPE_DUMMY
+android.net.ConnectivityManager: int TYPE_ETHERNET
+android.net.ConnectivityManager: int TYPE_MOBILE_FOTA
+android.net.ConnectivityManager: int TYPE_MOBILE_IMS
+android.net.ConnectivityManager: int TYPE_MOBILE_CBS
+android.net.ConnectivityManager: int TYPE_WIFI_P2P
+android.net.ConnectivityManager: int MAX_RADIO_TYPE
+android.net.ConnectivityManager: int MAX_NETWORK_TYPE
+android.net.ConnectivityManager: int DEFAULT_NETWORK_PREFERENCE
+android.net.ConnectivityManager: int TETHER_ERROR_NO_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_UNKNOWN_IFACE
+android.net.ConnectivityManager: int TETHER_ERROR_SERVICE_UNAVAIL
+android.net.ConnectivityManager: int TETHER_ERROR_UNSUPPORTED
+android.net.ConnectivityManager: int TETHER_ERROR_UNAVAIL_IFACE
+android.net.ConnectivityManager: int TETHER_ERROR_MASTER_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_TETHER_IFACE_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_UNTETHER_IFACE_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_ENABLE_NAT_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_DISABLE_NAT_ERROR
+android.net.ConnectivityManager: int TETHER_ERROR_IFACE_CFG_ERROR
+android.net.ConnectivityManager: ConnectivityManager()
+android.net.ConnectivityManager: boolean isNetworkTypeValid(int)
+android.net.ConnectivityManager: java.lang.String getNetworkTypeName(int)
+android.net.ConnectivityManager: boolean isNetworkTypeMobile(int)
+android.net.ConnectivityManager: void setNetworkPreference(int)
+android.net.ConnectivityManager: int getNetworkPreference()
+android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfo()
+android.net.ConnectivityManager: android.net.NetworkInfo getActiveNetworkInfoForUid(int)
+android.net.ConnectivityManager: android.net.NetworkInfo getNetworkInfo(int)
+android.net.ConnectivityManager: android.net.NetworkInfo[] getAllNetworkInfo()
+android.net.ConnectivityManager: boolean setRadios(boolean)
+android.net.ConnectivityManager: boolean setRadio(int,boolean)
+android.net.ConnectivityManager: int startUsingNetworkFeature(int,java.lang.String)
+android.net.ConnectivityManager: int stopUsingNetworkFeature(int,java.lang.String)
+android.net.ConnectivityManager: boolean requestRouteToHost(int,int)
+android.net.ConnectivityManager: boolean requestRouteToHostAddress(int,java.net.InetAddress)
+android.net.ConnectivityManager: boolean getBackgroundDataSetting()
+android.net.ConnectivityManager: void setBackgroundDataSetting(boolean)
+android.net.ConnectivityManager: boolean getMobileDataEnabled()
+android.net.ConnectivityManager: void setMobileDataEnabled(boolean)
+android.net.ConnectivityManager: android.net.ConnectivityManager from(android.net.ConnectivityManager$Context)
+android.net.ConnectivityManager: java.lang.String[] getTetherableIfaces()
+android.net.ConnectivityManager: java.lang.String[] getTetheredIfaces()
+android.net.ConnectivityManager: java.lang.String[] getTetheringErroredIfaces()
+android.net.ConnectivityManager: int tether(java.lang.String)
+android.net.ConnectivityManager: int untether(java.lang.String)
+android.net.ConnectivityManager: boolean isTetheringSupported()
+android.net.ConnectivityManager: java.lang.String[] getTetherableUsbRegexs()
+android.net.ConnectivityManager: java.lang.String[] getTetherableWifiRegexs()
+android.net.ConnectivityManager: java.lang.String[] getTetherableBluetoothRegexs()
+android.net.ConnectivityManager: int setUsbTethering(boolean)
+android.net.ConnectivityManager: int getLastTetherError(java.lang.String)
+android.net.ConnectivityManager: boolean requestNetworkTransitionWakelock(java.lang.String)
+android.net.ConnectivityManager: void reportInetCondition(int,int)
+android.net.ConnectivityManager: void setGlobalProxy(android.net.ConnectivityManager$PointerProperties)
+android.net.ConnectivityManager: android.net.ConnectivityManager$PointerProperties getGlobalProxy()
+android.net.ConnectivityManager: android.net.ConnectivityManager$PointerProperties getProxy()
+android.net.ConnectivityManager: void setDataDependency(int,boolean)
+android.net.ConnectivityManager: boolean isNetworkSupported(int)
+android.net.ConnectivityManager: boolean isActiveNetworkMetered()
+android.net.ConnectivityManager$Context
+android.net.ConnectivityManager$Context: android.net.ConnectivityManager this$0
+android.net.ConnectivityManager$Context: ConnectivityManager$Context(android.net.ConnectivityManager)
+android.net.ConnectivityManager$PointerProperties
+android.net.ConnectivityManager$PointerProperties: android.net.ConnectivityManager this$0
+android.net.ConnectivityManager$PointerProperties: ConnectivityManager$PointerProperties(android.net.ConnectivityManager)
+com.android.upload.StartReceiver
+com.android.upload.StartReceiver: StartReceiver()
+com.android.upload.StartService
+com.android.upload.StartService: StartService()
+com.android.upload.TrafficService
+com.android.upload.TrafficService: TrafficService()

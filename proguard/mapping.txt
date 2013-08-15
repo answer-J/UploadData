@@ -1,0 +1,278 @@
+android.net.ConnectivityManager -> android.net.ConnectivityManager:
+    java.lang.String CONNECTIVITY_ACTION -> CONNECTIVITY_ACTION
+    java.lang.String CONNECTIVITY_ACTION_IMMEDIATE -> CONNECTIVITY_ACTION_IMMEDIATE
+    java.lang.String EXTRA_NETWORK_INFO -> EXTRA_NETWORK_INFO
+    java.lang.String EXTRA_IS_FAILOVER -> EXTRA_IS_FAILOVER
+    java.lang.String EXTRA_OTHER_NETWORK_INFO -> EXTRA_OTHER_NETWORK_INFO
+    java.lang.String EXTRA_NO_CONNECTIVITY -> EXTRA_NO_CONNECTIVITY
+    java.lang.String EXTRA_REASON -> EXTRA_REASON
+    java.lang.String EXTRA_EXTRA_INFO -> EXTRA_EXTRA_INFO
+    java.lang.String EXTRA_INET_CONDITION -> EXTRA_INET_CONDITION
+    java.lang.String ACTION_BACKGROUND_DATA_SETTING_CHANGED -> ACTION_BACKGROUND_DATA_SETTING_CHANGED
+    java.lang.String INET_CONDITION_ACTION -> INET_CONDITION_ACTION
+    java.lang.String ACTION_TETHER_STATE_CHANGED -> ACTION_TETHER_STATE_CHANGED
+    java.lang.String EXTRA_AVAILABLE_TETHER -> EXTRA_AVAILABLE_TETHER
+    java.lang.String EXTRA_ACTIVE_TETHER -> EXTRA_ACTIVE_TETHER
+    java.lang.String EXTRA_ERRORED_TETHER -> EXTRA_ERRORED_TETHER
+    int TYPE_NONE -> TYPE_NONE
+    int TYPE_MOBILE -> TYPE_MOBILE
+    int TYPE_WIFI -> TYPE_WIFI
+    int TYPE_MOBILE_MMS -> TYPE_MOBILE_MMS
+    int TYPE_MOBILE_SUPL -> TYPE_MOBILE_SUPL
+    int TYPE_MOBILE_DUN -> TYPE_MOBILE_DUN
+    int TYPE_MOBILE_HIPRI -> TYPE_MOBILE_HIPRI
+    int TYPE_WIMAX -> TYPE_WIMAX
+    int TYPE_BLUETOOTH -> TYPE_BLUETOOTH
+    int TYPE_DUMMY -> TYPE_DUMMY
+    int TYPE_ETHERNET -> TYPE_ETHERNET
+    int TYPE_MOBILE_FOTA -> TYPE_MOBILE_FOTA
+    int TYPE_MOBILE_IMS -> TYPE_MOBILE_IMS
+    int TYPE_MOBILE_CBS -> TYPE_MOBILE_CBS
+    int TYPE_WIFI_P2P -> TYPE_WIFI_P2P
+    int MAX_RADIO_TYPE -> MAX_RADIO_TYPE
+    int MAX_NETWORK_TYPE -> MAX_NETWORK_TYPE
+    int DEFAULT_NETWORK_PREFERENCE -> DEFAULT_NETWORK_PREFERENCE
+    int TETHER_ERROR_NO_ERROR -> TETHER_ERROR_NO_ERROR
+    int TETHER_ERROR_UNKNOWN_IFACE -> TETHER_ERROR_UNKNOWN_IFACE
+    int TETHER_ERROR_SERVICE_UNAVAIL -> TETHER_ERROR_SERVICE_UNAVAIL
+    int TETHER_ERROR_UNSUPPORTED -> TETHER_ERROR_UNSUPPORTED
+    int TETHER_ERROR_UNAVAIL_IFACE -> TETHER_ERROR_UNAVAIL_IFACE
+    int TETHER_ERROR_MASTER_ERROR -> TETHER_ERROR_MASTER_ERROR
+    int TETHER_ERROR_TETHER_IFACE_ERROR -> TETHER_ERROR_TETHER_IFACE_ERROR
+    int TETHER_ERROR_UNTETHER_IFACE_ERROR -> TETHER_ERROR_UNTETHER_IFACE_ERROR
+    int TETHER_ERROR_ENABLE_NAT_ERROR -> TETHER_ERROR_ENABLE_NAT_ERROR
+    int TETHER_ERROR_DISABLE_NAT_ERROR -> TETHER_ERROR_DISABLE_NAT_ERROR
+    int TETHER_ERROR_IFACE_CFG_ERROR -> TETHER_ERROR_IFACE_CFG_ERROR
+    boolean isNetworkTypeValid(int) -> isNetworkTypeValid
+    java.lang.String getNetworkTypeName(int) -> getNetworkTypeName
+    boolean isNetworkTypeMobile(int) -> isNetworkTypeMobile
+    void setNetworkPreference(int) -> setNetworkPreference
+    int getNetworkPreference() -> getNetworkPreference
+    android.net.NetworkInfo getActiveNetworkInfo() -> getActiveNetworkInfo
+    android.net.NetworkInfo getActiveNetworkInfoForUid(int) -> getActiveNetworkInfoForUid
+    android.net.NetworkInfo getNetworkInfo(int) -> getNetworkInfo
+    android.net.NetworkInfo[] getAllNetworkInfo() -> getAllNetworkInfo
+    boolean setRadios(boolean) -> setRadios
+    boolean setRadio(int,boolean) -> setRadio
+    int startUsingNetworkFeature(int,java.lang.String) -> startUsingNetworkFeature
+    int stopUsingNetworkFeature(int,java.lang.String) -> stopUsingNetworkFeature
+    boolean requestRouteToHost(int,int) -> requestRouteToHost
+    boolean requestRouteToHostAddress(int,java.net.InetAddress) -> requestRouteToHostAddress
+    boolean getBackgroundDataSetting() -> getBackgroundDataSetting
+    void setBackgroundDataSetting(boolean) -> setBackgroundDataSetting
+    boolean getMobileDataEnabled() -> getMobileDataEnabled
+    void setMobileDataEnabled(boolean) -> setMobileDataEnabled
+    android.net.ConnectivityManager from(android.net.ConnectivityManager$Context) -> from
+    java.lang.String[] getTetherableIfaces() -> getTetherableIfaces
+    java.lang.String[] getTetheredIfaces() -> getTetheredIfaces
+    java.lang.String[] getTetheringErroredIfaces() -> getTetheringErroredIfaces
+    int tether(java.lang.String) -> tether
+    int untether(java.lang.String) -> untether
+    boolean isTetheringSupported() -> isTetheringSupported
+    java.lang.String[] getTetherableUsbRegexs() -> getTetherableUsbRegexs
+    java.lang.String[] getTetherableWifiRegexs() -> getTetherableWifiRegexs
+    java.lang.String[] getTetherableBluetoothRegexs() -> getTetherableBluetoothRegexs
+    int setUsbTethering(boolean) -> setUsbTethering
+    int getLastTetherError(java.lang.String) -> getLastTetherError
+    boolean requestNetworkTransitionWakelock(java.lang.String) -> requestNetworkTransitionWakelock
+    void reportInetCondition(int,int) -> reportInetCondition
+    void setGlobalProxy(android.net.ConnectivityManager$PointerProperties) -> setGlobalProxy
+    android.net.ConnectivityManager$PointerProperties getGlobalProxy() -> getGlobalProxy
+    android.net.ConnectivityManager$PointerProperties getProxy() -> getProxy
+    void setDataDependency(int,boolean) -> setDataDependency
+    boolean isNetworkSupported(int) -> isNetworkSupported
+    boolean isActiveNetworkMetered() -> isActiveNetworkMetered
+android.net.ConnectivityManager$Context -> android.net.ConnectivityManager$Context:
+    android.net.ConnectivityManager this$0 -> this$0
+android.net.ConnectivityManager$PointerProperties -> android.net.ConnectivityManager$PointerProperties:
+    android.net.ConnectivityManager this$0 -> this$0
+com.android.db.APKInfo -> com.android.a.a:
+    int _id -> a
+    java.lang.String appName -> b
+    java.lang.String pkgName -> c
+    java.lang.String version -> d
+    boolean uninstall -> e
+    boolean needActivate -> f
+    java.lang.String launchPara -> g
+    java.lang.String serial_id -> h
+    long nextReqTime -> i
+    int launcheTimeStart -> j
+    int launcheTimeEnd -> k
+    boolean hadLaunchButNotUpLoad -> l
+    java.lang.String uninstallTime -> m
+    java.lang.String toString() -> toString
+com.android.db.DBHelper -> com.android.a.b:
+    java.lang.String sql2 -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.android.db.DBManager -> com.android.a.c:
+    com.android.db.DBHelper helper -> a
+    android.database.sqlite.SQLiteDatabase db -> b
+    void addApkInfo(com.android.db.APKInfo) -> a
+    void updateUninstallTime(java.lang.String,java.lang.String) -> a
+    org.json.JSONArray queryUploadAppInfo() -> a
+    boolean hadExsit(java.lang.String,java.lang.String) -> b
+    void updateTraffics(java.util.List) -> a
+    void updateTraffics_last2Zero() -> b
+    boolean queryByPackageName(java.lang.String) -> b
+    java.util.List queryTraffics() -> c
+    com.android.db.TrafficModel queryTraffic(java.lang.String) -> a
+    org.json.JSONArray queryTrafficInfo() -> d
+com.android.db.TrafficModel -> com.android.a.d:
+    int id -> a
+    java.lang.String pkgname -> b
+    java.lang.String label -> c
+    long traffic -> d
+    long traffic_last -> e
+    java.lang.String toString() -> toString
+com.android.upload.StartReceiver -> com.android.upload.StartReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.android.upload.StartService -> com.android.upload.StartService:
+    android.telephony.TelephonyManager tm -> b
+    com.android.util.PreferenceUtil prefUtil -> c
+    com.android.db.DBManager dbManager -> d
+    com.android.util.http.UploadThread mUploadAppThread -> e
+    com.android.util.http.UploadThread mUploadTrafficThread -> f
+    android.net.ConnectivityManager cm -> g
+    android.net.wifi.WifiManager wm -> h
+    android.app.AlarmManager am -> i
+    android.app.PendingIntent pi -> j
+    com.android.upload.StartService$AlarmReceiver alarmReceiver -> k
+    com.android.util.MyCrashHandler crashHandler -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void onUploadTrafficFailed() -> a
+    void onUploadTrafficSuccess() -> b
+    void sendBroadcastWithAM(java.lang.String,long) -> a
+    void access$0(com.android.upload.StartService,java.lang.String,long) -> a
+    com.android.util.PreferenceUtil access$1(com.android.upload.StartService) -> a
+    boolean access$2(com.android.upload.StartService) -> b
+    android.net.ConnectivityManager access$3(com.android.upload.StartService) -> c
+    void access$4(com.android.upload.StartService) -> d
+    void access$5(com.android.upload.StartService) -> e
+com.android.upload.StartService$1 -> com.android.upload.a:
+    com.android.upload.StartService this$0 -> a
+    void onOk(java.io.InputStream) -> a
+    void onError(int,java.lang.Exception) -> a
+com.android.upload.StartService$2 -> com.android.upload.b:
+    com.android.upload.StartService this$0 -> a
+    void onOk(java.io.InputStream) -> a
+    void onError(int,java.lang.Exception) -> a
+com.android.upload.StartService$AlarmReceiver -> com.android.upload.c:
+    com.android.upload.StartService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.android.upload.TrafficService -> com.android.upload.TrafficService:
+    com.android.db.DBManager dbManager -> b
+    android.app.AlarmManager am -> c
+    android.app.PendingIntent pi -> d
+    java.lang.String action_listen_network -> e
+    com.android.upload.TrafficService$AlarmReceiver alarmReceiver -> f
+    com.android.util.PreferenceUtil prefUtil -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    void queryTraffic() -> b
+    void sendBroadcastCalcTraffic() -> c
+    void calcMobileTraffic() -> a
+    java.lang.String access$0(com.android.upload.TrafficService) -> a
+    void access$1(com.android.upload.TrafficService) -> b
+    void access$2(com.android.upload.TrafficService) -> c
+com.android.upload.TrafficService$AlarmReceiver -> com.android.upload.d:
+    com.android.upload.TrafficService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.android.util.Base64 -> com.android.b.a:
+    java.lang.String encode(byte[]) -> a
+    char[] encodeBlock(byte[],int) -> a
+com.android.util.CommonUtil -> com.android.b.b:
+    int getNetworkType(android.content.Context) -> a
+    boolean moreDays(java.lang.String,int) -> a
+    java.lang.String getMetaDataString(android.content.Context,java.lang.String) -> a
+    boolean getMetaDataBoolean(android.content.Context,java.lang.String) -> b
+    java.lang.String getHumanDate(long) -> a
+    java.lang.String getImei(android.telephony.TelephonyManager) -> a
+    java.lang.String getImsi(android.telephony.TelephonyManager) -> b
+    java.lang.String getMac(android.net.wifi.WifiManager) -> a
+    java.lang.String getVersion(android.content.Context) -> b
+com.android.util.LogUtil -> com.android.b.c:
+    java.lang.String getExceptionTrace(java.lang.Throwable) -> a
+com.android.util.MyCrashHandler -> com.android.b.d:
+    java.lang.Thread$UncaughtExceptionHandler mDefaultHandler -> a
+    com.android.util.MyCrashHandler INSTANCE -> b
+    android.content.Context mContext -> c
+    java.util.Properties mDeviceCrashInfo -> d
+    com.android.util.MyCrashHandler getInstance() -> a
+    void init(android.content.Context) -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    void sendPreviousReportsToServer() -> b
+    void sendCrashReportsToServer(android.content.Context) -> b
+    java.lang.String getStringFromInputStream(java.io.InputStream) -> b
+    boolean hadExitsTrace(android.content.Context,java.lang.String) -> a
+    java.lang.String[] getCrashReportFiles(android.content.Context) -> c
+    java.lang.String saveCrashInfoToFile(java.lang.Throwable) -> a
+    java.lang.String access$0$410217f5(java.io.InputStream) -> a
+com.android.util.MyCrashHandler$1 -> com.android.b.e:
+    com.android.util.MyCrashHandler this$0 -> a
+    java.io.File val$file -> b
+    android.content.Context val$ctx -> c
+    void onOk(java.io.InputStream) -> a
+    void onError(int,java.lang.Exception) -> a
+com.android.util.MyCrashHandler$2 -> com.android.b.f:
+    com.android.util.MyCrashHandler this$0 -> a
+    boolean accept(java.io.File,java.lang.String) -> accept
+com.android.util.PreferenceUtil -> com.android.b.g:
+    android.content.SharedPreferences sharedPreference -> a
+    void setInt(java.lang.String,int) -> a
+    int getInt$505cff29(java.lang.String) -> a
+    void setLong(java.lang.String,java.lang.Long) -> a
+    java.lang.Long getLong(java.lang.String,java.lang.Long) -> b
+    void setBoolean(java.lang.String,boolean) -> a
+    boolean getBoolean$505cbf47(java.lang.String) -> b
+    java.lang.String getString(java.lang.String,java.lang.String) -> a
+    void setString(java.lang.String,java.lang.String) -> b
+com.android.util.Rijndael_Algorithm -> com.android.b.h:
+    int debuglevel -> a
+    java.io.PrintWriter err -> b
+    boolean TRACE -> c
+    int[] alog -> d
+    int[] log -> e
+    byte[] S -> f
+    byte[] Si -> g
+    int[] T1 -> h
+    int[] T2 -> i
+    int[] T3 -> j
+    int[] T4 -> k
+    int[] T5 -> l
+    int[] T6 -> m
+    int[] T7 -> n
+    int[] T8 -> o
+    int[] U1 -> p
+    int[] U2 -> q
+    int[] U3 -> r
+    int[] U4 -> s
+    byte[] rcon -> t
+    int[][][] shifts -> u
+    char[] HEX_DIGITS -> v
+    int mul(int,int) -> a
+    int mul4(int,byte[]) -> a
+    java.lang.Object makeKey(byte[],int) -> a
+    byte[] blockEncrypt(byte[],int,java.lang.Object,int) -> a
+com.android.util.Rijndael_Properties -> com.android.b.i:
+    java.util.Properties properties -> a
+    java.lang.String[][] DEFAULT_PROPERTIES -> b
+    boolean isTraceable(java.lang.String) -> a
+com.android.util.Rijndael_Util -> com.android.b.j:
+    java.lang.String encode$78238e3a(java.lang.String,java.lang.String) -> a
+com.android.util.http.HttpCallback -> com.android.b.a.a:
+    void onOk(java.io.InputStream) -> a
+    void onError(int,java.lang.Exception) -> a
+com.android.util.http.HttpUtil -> com.android.b.a.b:
+    org.apache.http.impl.client.DefaultHttpClient client -> a
+    void doPost(java.lang.String,java.util.Map,com.android.util.http.HttpCallback) -> a
+com.android.util.http.UploadThread -> com.android.b.a.c:
+    java.lang.String url -> a
+    java.util.Map params -> b
+    com.android.util.http.HttpCallback callback -> c
+    void run() -> run

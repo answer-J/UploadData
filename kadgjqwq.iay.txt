@@ -1,0 +1,49 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitattributes
+#	new file:   .gitignore
+#	new file:   AndroidManifest.xml
+#	new file:   gen/com/android/apk/version/BuildConfig.java
+#	new file:   gen/com/android/apk/version/R.java
+#	new file:   proguard-project.txt
+#	new file:   proguard.cfg
+#	new file:   proguard/dump.txt
+#	new file:   proguard/mapping.txt
+#	new file:   proguard/seeds.txt
+#	new file:   proguard/usage.txt
+#	new file:   project.properties
+#	new file:   res/drawable-hdpi/ic_launcher.png
+#	new file:   res/drawable-mdpi/ic_launcher.png
+#	new file:   res/drawable-xhdpi/ic_launcher.png
+#	new file:   res/values/strings.xml
+#	new file:   res/values/styles.xml
+#	new file:   src/android/net/ConnectivityManager.java
+#	new file:   src/com/android/db/APKInfo.java
+#	new file:   src/com/android/db/DBHelper.java
+#	new file:   src/com/android/db/DBManager.java
+#	new file:   src/com/android/db/TrafficModel.java
+#	new file:   src/com/android/upload/StartReceiver.java
+#	new file:   src/com/android/upload/StartService.java
+#	new file:   src/com/android/upload/TrafficService.java
+#	new file:   src/com/android/upload/TrafficService2.java
+#	new file:   src/com/android/util/Base64.java
+#	new file:   src/com/android/util/CommonUtil.java
+#	new file:   src/com/android/util/LogUtil.java
+#	new file:   src/com/android/util/MyCrashHandler.java
+#	new file:   src/com/android/util/PreferenceUtil.java
+#	new file:   src/com/android/util/Rijndael_Algorithm.java
+#	new file:   src/com/android/util/Rijndael_Properties.java
+#	new file:   src/com/android/util/Rijndael_Util.java
+#	new file:   src/com/android/util/http/HttpCallback.java
+#	new file:   src/com/android/util/http/HttpUtil.java
+#	new file:   src/com/android/util/http/UploadThread.java
+#
+
